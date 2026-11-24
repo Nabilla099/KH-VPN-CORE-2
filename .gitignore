@@ -1,0 +1,11 @@
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+app/src/main/jniLibs/
+out/
+natives-dl/
+icon-preview.png
+__pycache__/
+*.pyc

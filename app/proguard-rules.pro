@@ -1,0 +1,3 @@
+-keep class com.trilead.ssh2.** { *; }
+-keep class org.connectbot.** { *; }
+-dontwarn **

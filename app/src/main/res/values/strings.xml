@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KH VPN</string>
+    <string name="notif_channel">Status VPN</string>
+    <string name="notif_disconnect">Putuskan</string>
+</resources>

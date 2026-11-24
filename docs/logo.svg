@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-label="KH VPN">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+      <stop offset="0" stop-color="#14403d"/>
+      <stop offset="1" stop-color="#0C2B2A"/>
+    </radialGradient>
+    <linearGradient id="word" x1="0" x2="1">
+      <stop offset="0" stop-color="#5FD8C0"/>
+      <stop offset="1" stop-color="#F2A93B"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="300" rx="22" fill="url(#bg)"/>
+
+  <!-- gelombang sinyal -->
+  <g fill="none" stroke="#5FD8C0" stroke-width="2" opacity="0">
+    <circle cx="240" cy="132" r="40">
+      <animate attributeName="r" values="40;118" dur="4.8s" begin="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0" dur="4.8s" begin="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="240" cy="132" r="40">
+      <animate attributeName="r" values="40;118" dur="4.8s" begin="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0" dur="4.8s" begin="3.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- lambang -->
+  <g transform="translate(240 132) scale(1.55) translate(-54 -58)" fill="none" stroke-linecap="round">
+    <path d="M33,74 L33,52 A21,21 0 0 1 75,52 L75,74" stroke="#5FD8C0" stroke-width="5"
+          stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.6s" begin="0.3s" fill="freeze"
+               calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
+    </path>
+    <path d="M42,74 L42,53 A12,12 0 0 1 66,53 L66,74" stroke="#2FB59C" stroke-width="5"
+          stroke-dasharray="70" stroke-dashoffset="70">
+      <animate attributeName="stroke-dashoffset" from="70" to="0" dur="1.4s" begin="1.0s" fill="freeze"
+               calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
+    </path>
+    <circle cx="54" cy="64.5" r="0" fill="#F2A93B" stroke="none">
+      <animate attributeName="r" values="0;5.4;3.6" keyTimes="0;0.6;1" dur="0.8s" begin="2.0s" fill="freeze"/>
+      <animate attributeName="r" values="3.6;4.6;3.6" dur="3s" begin="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- nama -->
+  <g text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="240" y="240" font-size="38" font-weight="700" letter-spacing="9" fill="url(#word)" opacity="0">
+      KH VPN
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="2.2s" fill="freeze"/>
+      <animate attributeName="letter-spacing" from="22" to="9" dur="1.6s" begin="2.2s" fill="freeze"
+               calcMode="spline" keySplines="0.2 0.6 0.2 1" keyTimes="0;1"/>
+    </text>
+    <text x="240" y="268" font-size="12" letter-spacing="4" fill="#8fbfb6" opacity="0">
+      SECURE &#183; TUNNEL &#183; CORE
+      <animate attributeName="opacity" from="0" to="0.9" dur="1.2s" begin="3.2s" fill="freeze"/>
+    </text>
+  </g>
+
+</svg>
